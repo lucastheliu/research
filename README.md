@@ -39,17 +39,26 @@ For more information about each notebook, check the top of the notebook, where y
 
 ```
 .
-├── LICENSE
-├── src
-│   ├── utils.py
-│   └── models.py
 ├── .gitignore
+├── LICENSE
 ├── README.md
+├── models
+│   ├── federated_model.pth
+│   └── mlp_model.pth
 ├── notebooks
 │   ├── attack.ipynb
 │   ├── federated.ipynb
-│   └── mlp.ipynb
-└── requirements.txt
+│   ├── mlp.ipynb
+│   └── resources
+│       ├── Federated_learning_code(2).ipynb
+│       ├── Federated_learning_codes(3).ipynb
+│       ├── Federated_learning_codes(4).ipynb
+│       ├── Federated_learning_codes(5).ipynb
+│       └── Federated_learning_codes_(1).ipynb
+├── requirements.txt
+└── src
+    ├── models.py
+    └── utils.py
 ```
 
 ## Licensing
